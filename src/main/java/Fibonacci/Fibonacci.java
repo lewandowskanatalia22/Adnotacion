@@ -17,7 +17,7 @@ public class Fibonacci {
         if (x<=2){
             return 1;
         }else {
-            return x* fibonacci(x-2)+ fibonacci(x-1);
+            return  fibonacci(x-2)+ fibonacci(x-1);
 
         }
     }
